@@ -1,0 +1,10 @@
+/*stylesheet-home.css -- assign1 -- Joshua Kaye*/.DS_Store
+
+body{ /*body styles*/
+  background-color: rgb(247, 247, 247);
+}
+
+.page-header{
+  font-family:Arial;
+  color: red;
+}
