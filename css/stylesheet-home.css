@@ -1,10 +1,94 @@
 /*stylesheet-home.css -- assign1 -- Joshua Kaye*/.DS_Store
-
 body{ /*body styles*/
   background-color: rgb(247, 247, 247);
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 1000px;
+  min-width: 1000px;
+}
+.container-header{/*page-header*/
+  line-height: 45px;
+  font-size: 2rem;
+  padding-left: 21px;
+  display:inline;
+  max-width: 100;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-color: #01d9ff;*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-weight: 400;
+  align-items:center;
+  text-align: center;
+}
+.nav-bar{/*page-navigation-bar*/
+  text-decoration: none;
+  list-style-type:none;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float:right;
+  display:inline;
+}
+.link-one,.link-two,.link-three,.link-four{/*nav-bar-decoration*/
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 75px;
+  max-height: 100%;
+  font-weight: 400;
+  font-weight: bold;
+  color:#1e1e1e;
+  font-size: 14px;
+  position: static;
+  display: inline-block;
+  padding: 10px 15px;
+  left:99%;
+  padding-left: 40px;
+  padding-top: 0.5px;
+}
+.list-nav{
+  text-align: right;
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto 2px 17px;
+  color: #1e1e1e;
+}
+.nav-head-conatianer{
+  display: inline-block;
+
+}
+.unordered-nav-list{
+  display: inline;
+  float: right;
+
+}
+.cover-page-image{
+    background:url("/Users/Josh/csy1018/assign1/images/Flyer Poster A5 PSD Mockup.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 732px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 713px;
+    background-color: #353535;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    margin-bottom: 100px;
+    list-style-type: none;
+    align-content: center;
 }
 
-.page-header{
-  font-family:Arial;
-  color: red;
+.full-img-container{
+  max-width:100%;
+  max-height: 100%;
+
+}
+
+.cover-image-overlap{
+ background-size: cover;
 }
