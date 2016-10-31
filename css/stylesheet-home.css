@@ -30,7 +30,7 @@ body{ /*body styles*/
   margin-bottom: 0;
   list-style: none;
   float:right;
-  display:inline;
+  display:inline-block;
 }
 .link-one,.link-two,.link-three,.link-four{/*nav-bar-decoration*/
   text-decoration: none;
@@ -52,7 +52,7 @@ body{ /*body styles*/
 .list-nav{
   text-align: right;
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin: 0 auto 2px 17px;
   color: #1e1e1e;
 }
